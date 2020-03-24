@@ -206,3 +206,30 @@ nav {
   position: relative;
   right: 50px;
 }
+
+/* -------------------- Footer */
+
+footer {
+  background-color: #39b54a;
+  position: relative;
+  height: 415px;
+  color: white;
+  padding-top: 10%;
+}
+.footer-quote {
+  position: absolute;
+  right: 10%;
+  max-width: 48%;
+  padding-bottom: .5em;
+  border-bottom: 2px solid #fff;
+}
+
+.footer-quote-author {
+  background-color: #39b54a;
+  max-width: 50%;
+  padding: .5em;
+
+  position: absolute;
+  right: 10%;
+  bottom: 27%;
+}
