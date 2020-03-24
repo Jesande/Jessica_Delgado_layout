@@ -1,0 +1,130 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.5em;
+  background-color: #f8f8f8;
+  color: #202020;
+}
+
+main {
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:24px;
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 46px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+header img {
+  width: 77px;
+}
+
+section {
+  margin: 50px auto;
+}
+
+/* -------------------- Header */
+
+header {
+  text-align: center;
+  margin: 10px 0;
+  position: relative;
+}
+
+nav {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 24px;
+  color: blue;
+}
+
+
+/* -------------------- Section intro */
+.intro {
+  position: relative;
+}
+
+.quote {
+  position: absolute;
+  bottom: 25%;
+  right: 10%;
+  max-width: 50%;
+  padding-bottom: .5em;
+  border-bottom: 2px solid #39b54a;
+}
+
+.quote-author {
+  position: absolute;
+  bottom: calc(25% - 1em);
+  right: 10%;
+  max-width: 50%;
+  padding: .5em;
+  background-color:#f1f1f1;
+}
+
+/* -------------------- Section content */
+
+.content {
+position: relative;
+}
+
+.article-one {
+  min-height: 510px;
+  border: 5px solid green;
+  background-image: url(img/product-01.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  padding-top: 4em;
+  padding-left: 1.3em;
+}
+
+.article-number-1 {
+  background-color:#ffcc00;
+  color: white;
+
+  font-size: 1.6em;
+  text-align: center;
+  line-height: 150%;
+
+  border-radius: 50%;
+  padding: 10px 12px;
+  display: inline;
+}
+
+.article-title {
+  display: inline;
+  position: relative;
+  left: 10px;
+}
+
+.article-description {
+  max-width: 400px;
+  position: relative;
+  left: 80px;
+
+  font-weight: normal;
+}
+
+.article-img {
+  position: relative;
+  z-index: -1;
+}
