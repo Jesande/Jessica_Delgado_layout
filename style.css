@@ -14,6 +14,12 @@ body {
 main {
   max-width: 980px;
   margin: 0 auto;
+  Box-shadow: 0px 0px 20px #88888;
+}
+
+.wrapper {
+  box-shadow:0px 0px 40px #cccccc;
+  margin-top: -10px;
 }
 
 h1 {
@@ -38,22 +44,20 @@ header img {
   width: 77px;
 }
 
-section {
-  margin: 50px auto;
-}
 
 /* -------------------- Header */
 
 header {
   text-align: center;
   margin: 10px 0;
+  padding: 10px;
   position: relative;
 }
 
 nav {
   position: absolute;
-  top: 0;
-  right: 0;
+  top: 10px;
+  right: 10px;
   font-size: 24px;
   color: blue;
 }
@@ -92,9 +96,11 @@ nav {
 /* ---- article general */
 
 article {
-  min-height: 510px;
+  /* min-height: 510px; */
   padding-top: 3em;
-  margin: 50px 0;
+
+  margin: 10px 20px 0 20px;
+
   padding: 12%;
   position: relative;
 }
@@ -111,13 +117,23 @@ article {
   height: 1.8em;
   border-radius: 50%;
 
-  position: absolute;  
+  position: absolute;
+  left:0;
 }
 
 .article-title {
   position: relative;
-  left: 80px;
+  left: 0;
+  max-width: 50%;
 }
+
+.article-description {
+  max-width: 60%;
+  position: relative;
+  left: 0;
+  font-weight: normal;
+}
+
 /* ---- article 1 */
 
 .article-one {
@@ -131,17 +147,6 @@ article {
   top: 100px;
 }
 
-.article-title {
-  position: relative;
-  left: 80px;
-}
-
-.article-description {
-  max-width: 50%;
-  position: relative;
-  left: 80px;
-  font-weight: normal;
-}
 
 /* ---- article 2 */
 
@@ -153,20 +158,21 @@ article {
 
 .article-number-2 {
   background-color:#e8420d;
-  left: 377px;
+  left: 400px;
 }
 
 .article-title-2 {
+  max-width: 55%;
   position: relative;
   top: 20px;
-  left: 340px;  
+  left: 365px;
   margin: 0;
 }
 
 .article-description-2 {
-  max-width: 80%;
+  max-width: 60%;
   position: relative;
-  left: 340px;
+  left: 365px;
   top: 30px;
   font-weight: normal;
 }
@@ -187,27 +193,30 @@ article {
 /* -------------------- Footer */
 
 footer {
+  width: 100%;
   background-color: #39b54a;
-  position: relative;
-  height: 415px;
+  height: 400px;
   color: white;
-  padding-top: 10%;
+  margin: 0;
+  position: relative;
 }
 
-.footer-quote {
+.footer-content{
   position: absolute;
-  right: 10%;
-  max-width: 48%;
+  left: 50%;
+  bottom: 20%;
+
+}
+.footer-quote {
+  max-width: 450px;
   padding-bottom: .5em;
   border-bottom: 2px solid #fff;
 }
 
 .footer-quote-author {
   background-color: #39b54a;
-  max-width: 50%;
   padding: .5em;
-
-  position: absolute;
-  right: 10%;
-  bottom: 27%;
+  position: relative;
+  left: 300px;
+  bottom:30px;
 }
