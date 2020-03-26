@@ -88,6 +88,7 @@ nav {
   position: relative;
 }
 
+
 /* ---- article 1 */
 
 .article-one {
@@ -97,7 +98,7 @@ nav {
   background-repeat: no-repeat;
   background-position: right;
 
-  padding-top: 4em;
+  padding-top: 3em;
   padding-left: 1.3em;
 
   margin: 50px 0;
@@ -138,8 +139,8 @@ nav {
   background-repeat: no-repeat;
   background-position: left;
 
-  /* padding-top: 4em;
-  padding-right: 1.3em; */
+  padding-top: 3em;
+  padding-left: 17em;
 
   margin: 50px 0;
 }
@@ -154,23 +155,25 @@ nav {
 
   border-radius: 50%;
   padding: 10px 12px;
+
+  margin: 0;
   
   display: inline;
   
   position: relative;
-  right: 50px;
 }
 
 .article-title-2 {
   display: inline;
   position: relative;
-  right: 10px;
+  left: 70px;  
+  margin: 0;
 }
 
 .article-description-2 {
-  max-width: 50%;
+  max-width: 80%;
   position: relative;
-  right: 80px;
+  left: 70px;  
   font-weight: normal;
 }
 
@@ -202,10 +205,8 @@ nav {
   padding: 10px 12px;
   
   display: inline;
-  
-  position: relative;
-  right: 50px;
 }
+
 
 /* -------------------- Footer */
 
