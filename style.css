@@ -30,6 +30,7 @@ h2 {
 
 h3 {
   font-size: 36px;
+  margin-bottom: 10px;
   font-weight: bold;
 }
 
@@ -57,8 +58,8 @@ nav {
   color: blue;
 }
 
-
 /* -------------------- Section intro */
+
 .intro {
   position: relative;
 }
@@ -88,39 +89,51 @@ nav {
   position: relative;
 }
 
+/* ---- article general */
 
-/* ---- article 1 */
-
-.article-one {
+article {
   min-height: 510px;
-
-  background-image: url(img/product-01.png);
-  background-repeat: no-repeat;
-  background-position: right;
-
   padding-top: 3em;
-  padding-left: 1.3em;
-
   margin: 50px 0;
+  padding: 12%;
+  position: relative;
 }
 
-.article-number-1 {
-  background-color:#ffcc00;
+.article-number {
+  font-weight: bold;
   color: white;
   
   font-size: 1.6em;
   text-align: center;
-  line-height: 150%;
+  line-height: 1.8em;
   
+  width: 1.8em;
+  height: 1.8em;
   border-radius: 50%;
-  padding: 10px 12px;
-  display: inline;
+
+  position: absolute;  
 }
 
 .article-title {
-  display: inline;
   position: relative;
-  left: 10px;
+  left: 80px;
+}
+/* ---- article 1 */
+
+.article-one {
+  background-image: url(img/product-01.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.article-number-1 {
+  background-color:#ffcc00;
+  top: 100px;
+}
+
+.article-title {
+  position: relative;
+  left: 80px;
 }
 
 .article-description {
@@ -133,80 +146,43 @@ nav {
 /* ---- article 2 */
 
 .article-two {
-  min-height: 510px;
-
   background-image: url(img/product-02.png);
   background-repeat: no-repeat;
   background-position: left;
-
-  padding-top: 3em;
-  padding-left: 17em;
-
-  margin: 50px 0;
 }
 
 .article-number-2 {
   background-color:#e8420d;
-  color: white;
-
-  font-size: 1.6em;
-  text-align: center;
-  line-height: 150%;
-
-  border-radius: 50%;
-  padding: 10px 12px;
-
-  margin: 0;
-  
-  display: inline;
-  
-  position: relative;
+  left: 377px;
 }
 
 .article-title-2 {
-  display: inline;
   position: relative;
-  left: 70px;  
+  top: 20px;
+  left: 340px;  
   margin: 0;
 }
 
 .article-description-2 {
   max-width: 80%;
   position: relative;
-  left: 70px;  
+  left: 340px;
+  top: 30px;
   font-weight: normal;
 }
-
 
 /* ---- article 3 */
 
 .article-three {
-  min-height: 510px;
-
   background-image: url(img/product-03.png);
   background-repeat: no-repeat;
   background-position: right;
-
-  padding-top: 4em;
-  padding-left: 1.3em;
-
-  margin: 50px 0;
 }
 
 .article-number-3 {
   background-color:#c92424;
-  color: white;
-
-  font-size: 1.6em;
-  text-align: center;
-  line-height: 150%;
-
-  border-radius: 50%;
-  padding: 10px 12px;
-  
-  display: inline;
+  top: 100px;
 }
-
 
 /* -------------------- Footer */
 
@@ -217,6 +193,7 @@ footer {
   color: white;
   padding-top: 10%;
 }
+
 .footer-quote {
   position: absolute;
   right: 10%;
